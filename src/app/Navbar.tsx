@@ -21,10 +21,14 @@ export default function Navbar() {
         Resume
       </Link>
       <Link
-        href="/portfolio"
-        className={pathname === "/portfolio" ? "text-lime-300 text-2xl" : "text-amber-50 text-2xl"}
+        href="/portfolio/uiux"
+        className={
+          pathname.includes("/portfolio")
+            ? "text-lime-300 text-2xl"
+            : "text-amber-50 text-2xl"
+        }
       >
-        Portfolio
+          Portfolio
       </Link>
       <Link
         href="/contact"
