@@ -69,6 +69,10 @@ export default function Resume() {
           <div>
             <ul className="ml-16 text-lg text-amber-50 list-disc">
               <li>
+                <span className="font-bold">Backend Developpement – Udemy (2025)</span>  
+                <a href="/certificates/tc.pdf" target="_blank" rel="noopener noreferrer" className="text-lime-300 ml-2 underline">View Certificate</a>
+              </li>
+              <li>
                 <span className="font-bold">Web developpement – Udemy (2024)</span>  
                 <a href="/certificates/tc.pdf" target="_blank" rel="noopener noreferrer" className="text-lime-300 ml-2 underline">View Certificate</a>
               </li>
